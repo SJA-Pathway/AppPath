@@ -9,14 +9,15 @@ Empowering developers, designers, and learners to collaborate on real-world mobi
 
 ## 🧩 Tech Stack
 
-Layer	Technology	Notes
-Frontend	React Native (Expo)	Cross-platform mobile UI
-Backend	Firebase Functions	Serverless backend logic
-Database	Firebase Firestore	Cloud NoSQL database
-Authentication	Firebase Auth	Email/password, social login
-Storage	Firebase Storage	For media and file uploads
-Design	Figma (Free Plan)	UI/UX design
-Version Control	GitHub	Free public repositories
+| Layer          | Technology          | Notes                            |
+|----------------|-------------------|---------------------------------|
+| Frontend       | React Native (Expo)| Cross-platform mobile UI        |
+| Backend        | Firebase Functions | Serverless backend logic        |
+| Database       | Firebase Firestore | Cloud NoSQL database            |
+| Authentication | Firebase Auth      | Email/password, social login   |
+| Storage        | Firebase Storage   | For media and file uploads      |
+| Design         | Figma (Free Plan)  | UI/UX design                    |
+| Version Control| GitHub             | Free public repositories        |
 
 ## 💡 Example Mini Projects
 	•	📝 NoteKeeper – Personal note-taking app with cloud sync
