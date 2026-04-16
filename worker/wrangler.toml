@@ -1,4 +1,4 @@
-name = "lifehub-api"
+name = "apppath-api"
 main = "src/index.ts"
 compatibility_date = "2024-12-01"
 account_id = "60bc0d18ed5229edce6eb9712d7900d9"

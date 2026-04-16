@@ -1,6 +1,6 @@
 # AppPath by SJA Pathway
 
-AppPath is an open-source mobile app development hub under SJA Pathway. The flagship project is **LifeHub** — an all-in-one personal productivity app built with React Native (Expo), Firebase, and a Cloudflare Worker backend.
+AppPath is an open-source mobile app development hub under SJA Pathway. The flagship project is **AppPath** — an all-in-one personal productivity app built with React Native (Expo), Firebase, and a Cloudflare Worker backend.
 
 Anyone can contribute, learn, and grow through hands-on mobile development experience.
 
@@ -70,6 +70,15 @@ AppPath/
 - npm or yarn
 - Expo CLI (`npx expo`)
 - Wrangler CLI (`npx wrangler`) for Cloudflare Workers
+
+### Demo Login
+
+The app runs in demo mode (no Firebase required). Use any credentials to sign in:
+
+| Field    | Value            |
+|----------|------------------|
+| Email    | `test@test.com`  |
+| Password | `123456`         |
 
 ### Mobile App
 
@@ -149,8 +158,16 @@ Pick any of these and create a PR! Each feature lives under its own route.
 6. Use the theme system via `useTheme()` hook
 7. Submit a PR with a clear description of what you built
 
+## Live URLs
+
+| | URL |
+|---|---|
+| Frontend | https://apppath-app.sja-affu765.workers.dev |
+| API | https://apppath-api.sja-affu765.workers.dev |
+
 ## Deployment
 
 - **Mobile**: Build with `npx expo build` or EAS Build for store releases
 - **Web**: `npm run build:web` exports static web build
-- **Backend**: `cd worker && npm run deploy` deploys to Cloudflare Workers edge network globally
+- **Frontend Worker**: `npx wrangler deploy --config wrangler-frontend.toml`
+- **API Worker**: `cd worker && npm run deploy`

@@ -26,7 +26,7 @@ export default {
     try {
       // Route handling
       if (path === "/") {
-        return json({ name: "LifeHub API", version: "1.0.0", status: "running" });
+        return json({ name: "AppPath API", version: "1.0.0", status: "running" });
       }
 
       if (path === "/api/health") {

@@ -62,7 +62,7 @@ export default function SignupScreen() {
           </View>
           <Text style={[styles.title, { color: colors.text }]}>Create Account</Text>
           <Text style={[styles.subtitle, { color: colors.textSecondary }]}>
-            Join LifeHub and organize your life
+            Join AppPath and organize your life
           </Text>
         </View>
 

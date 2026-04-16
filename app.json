@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "LifeHub",
-    "slug": "lifehub",
+    "name": "AppPath",
+    "slug": "apppath",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "lifehub",
+    "scheme": "apppath",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
@@ -15,14 +15,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.sjapathway.lifehub"
+      "bundleIdentifier": "com.sjapathway.apppath"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1a1a2e"
       },
-      "package": "com.sjapathway.lifehub"
+      "package": "com.sjapathway.apppath"
     },
     "web": {
       "bundler": "metro",

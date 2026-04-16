@@ -21,9 +21,9 @@ export default function ChatScreen() {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       id: "welcome",
-      text: "Welcome to LifeHub Chat! This is a demo. Connect Firebase Firestore to enable real-time messaging.",
+      text: "Welcome to AppPath Chat! This is a demo. Connect Firebase Firestore to enable real-time messaging.",
       senderId: "system",
-      senderName: "LifeHub Bot",
+      senderName: "AppPath Bot",
       createdAt: new Date().toISOString(),
       roomId: "general",
     },

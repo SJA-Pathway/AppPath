@@ -1,4 +1,4 @@
-# AppPath - LifeHub
+# AppPath - AppPath
 
 ## Overview
 React Native (Expo) mobile app with Cloudflare Worker backend. The app uses Expo Router for file-based navigation, Firebase for auth/database, and a Cloudflare Worker for the API layer.

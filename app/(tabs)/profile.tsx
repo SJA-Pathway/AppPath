@@ -87,7 +87,7 @@ export default function ProfileScreen() {
         ))}
       </View>
 
-      <Text style={[styles.version, { color: colors.textMuted }]}>LifeHub v1.0.0</Text>
+      <Text style={[styles.version, { color: colors.textMuted }]}>AppPath v1.0.0</Text>
     </ScrollView>
   );
 }
