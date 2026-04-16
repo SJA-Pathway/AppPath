@@ -1,0 +1,22 @@
+name = "lifehub-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+# Uncomment to bind a D1 database (serverless SQL)
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "lifehub-db"
+# database_id = "YOUR_D1_DATABASE_ID"
+
+# Uncomment to bind KV namespace (key-value store)
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "YOUR_KV_NAMESPACE_ID"
+
+# Uncomment to bind R2 bucket (object storage)
+# [[r2_buckets]]
+# binding = "STORAGE"
+# bucket_name = "lifehub-storage"
+
+[vars]
+ENVIRONMENT = "development"
