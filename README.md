@@ -16,9 +16,9 @@ Lifeloop is a hands-on learning playground *and* a real shipping app. One codeba
 
 ### Kanban Board
 
-Track work visually on the GitHub Projects board: **[Lifeloop Kanban](https://github.com/orgs/SJA-Pathway/projects)** (board hosted at the org level — pick the *Lifeloop* project).
+Track work visually on the GitHub Projects board: **[Lifeloop Kanban](https://github.com/orgs/SJA-Pathway/projects/3)**.
 
-Quick filtered views of the backlog (use these as a lightweight kanban while the project board is being set up):
+Quick filtered views of the backlog (use these to triage straight from the issues list):
 
 | Lane | Link |
 |---|---|
