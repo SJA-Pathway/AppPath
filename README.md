@@ -1,8 +1,34 @@
-# AppPath by SJA Pathway
+# Lifeloop by SJA Pathway
 
-AppPath is an open-source mobile app development hub under SJA Pathway. The flagship project is **AppPath** — an all-in-one personal productivity app built with React Native (Expo), Firebase, and a Cloudflare Worker backend.
+> Loop everything in your life — notes, tasks, chat, and AI in one app.
 
-Anyone can contribute, learn, and grow through hands-on mobile development experience.
+**Lifeloop** is the flagship open-source project of the SJA Pathway mobile hub: an all-in-one personal productivity app built with React Native (Expo), Firebase, and a Cloudflare Worker backend. It ships as a single cross-platform app for iOS, Android, and the web — deployed today at [apppath-app.sja-affu765.workers.dev](https://apppath-app.sja-affu765.workers.dev) (the `apppath` URL is the legacy deployment slug; the product brand is Lifeloop).
+
+> Repository name (`AppPath`) and worker subdomains stay the same to avoid breaking existing deploy URLs and links. All user-facing branding, copy, and store metadata use **Lifeloop**.
+
+## Repo Overview
+
+Lifeloop is a hands-on learning playground *and* a real shipping app. One codebase covers the full stack:
+
+- **The mobile app** (`app/`, `src/`) — an Expo Router app with auth, a tabbed dashboard (Home, Notes, Tasks, Chat, Profile), a shared component library, and a theme system that supports light/dark mode out of the box. It currently runs in demo mode so anyone can clone and try it without setting up Firebase.
+- **The backend API** (`worker/`) — a Cloudflare Worker that exposes REST routes for notes, tasks, chat, and user data. It's wired for D1 (SQL), KV, and R2 (object storage) bindings so contributors can extend it without standing up new infrastructure.
+- **A 100-issue contributor backlog** ([open issues](https://github.com/SJA-Pathway/AppPath/issues)) — every task is labelled `difficulty:beginner | medium | hard` or `ai`, with acceptance criteria, so newcomers can pick something matched to their skill level and AI-focused contributors have a dedicated track (RAG chat, Whisper dictation, semantic search, Claude tool-use agents, multimodal capture, and more).
+
+### Kanban Board
+
+Track work visually on the GitHub Projects board: **[Lifeloop Kanban](https://github.com/orgs/SJA-Pathway/projects)** (board hosted at the org level — pick the *Lifeloop* project).
+
+Quick filtered views of the backlog (use these as a lightweight kanban while the project board is being set up):
+
+| Lane | Link |
+|---|---|
+| Good first issues | [`good first issue`](https://github.com/SJA-Pathway/AppPath/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) |
+| Beginner | [`difficulty:beginner`](https://github.com/SJA-Pathway/AppPath/issues?q=is%3Aissue+is%3Aopen+label%3A%22difficulty%3Abeginner%22) |
+| Medium | [`difficulty:medium`](https://github.com/SJA-Pathway/AppPath/issues?q=is%3Aissue+is%3Aopen+label%3A%22difficulty%3Amedium%22) |
+| Hard | [`difficulty:hard`](https://github.com/SJA-Pathway/AppPath/issues?q=is%3Aissue+is%3Aopen+label%3A%22difficulty%3Ahard%22) |
+| AI track | [`ai`](https://github.com/SJA-Pathway/AppPath/issues?q=is%3Aissue+is%3Aopen+label%3Aai) |
+
+The project exists for two audiences at once: **interns and learners** who want a real, production-shaped codebase to grow in, and **users** who want a clean, fast personal-productivity app that loops their life into one place.
 
 ## Vision
 
@@ -26,7 +52,7 @@ Empowering developers, designers, and learners to collaborate on real-world mobi
 ## Project Structure
 
 ```
-AppPath/
+Lifeloop/                  # repo: github.com/SJA-Pathway/AppPath
 ├── app/                    # Expo Router screens (file-based routing)
 │   ├── _layout.tsx         # Root layout (providers)
 │   ├── index.tsx           # Entry redirect (auth check)
